@@ -1,0 +1,69 @@
+:root {
+  --color-background: #E5E5E5;
+  --color-block: #FCBFBF66;
+  --color-elements: linea-gradient(to bottom,rgb(255,107,107),rgb(250,89,89));
+  --color-icon: #ED4A4A;
+  --color-text:#000;
+  --shadow-dark: 0 2rem 6rem rgba(0,0,0,0.3); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  background-size: cover;
+  min-height: 100vh; }
+
+.container {
+  max-width: 144rem;
+  margin: 8rem auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.04em; }
+
+.header {
+  height: 7.8rem;
+  background-color: var(--color-block);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem; }
+
+.logo {
+  height: 4.9rem;
+  width: 14.9rem;
+  margin-left: 10rem;
+  align-items: center;
+  margin-bottom: 10px; }
+
+.sidebar {
+  width: 80rem; }
+  .sidebar__top {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; }
+
+.btn {
+  font-family: inherit;
+  text-transform: uppercase;
+  letter-spacing: inherit;
+  padding: 12px 30px;
+  border-radius: 25px;
+  margin-right: 10rem;
+  border: none; }

@@ -1,0 +1,22 @@
+.container {
+    max-width: 144rem;
+    margin: 8rem auto;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.04em;
+}
+
+.header {
+    height: 7.8rem;
+    
+    background-color: var(--color-block);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.5rem;
+}
