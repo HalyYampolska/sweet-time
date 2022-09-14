@@ -1,0 +1,31 @@
+.hero {
+    height: 70rem; 
+    background-color: var(--color-block);
+ 
+    &__img {
+        width: 97rem;
+        height: 51rem;
+        position: absolute;
+        right: 10rem;
+        top: 27rem
+    }
+
+    &__title {
+        position: absolute;
+        top: 35rem;
+        left: 15rem;
+    }
+
+    &__description {
+        font-size: 2rem;
+        position: absolute;
+        top: 40rem;
+        left: 15rem;
+
+    &__btn {
+        position: absolute;
+        top: 45rem;
+        left: 15rem;
+    }
+    }
+}

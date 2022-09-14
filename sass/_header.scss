@@ -1,0 +1,30 @@
+.header {
+    height: 7.8rem;
+    
+    background-color: var(--color-block);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 2rem;
+}
+
+.logo {
+    height: 4.9rem;
+    width: 14.9rem;
+    margin-left: 10rem;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    width: 80rem;
+
+    &__top {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}

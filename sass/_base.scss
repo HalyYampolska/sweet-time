@@ -34,3 +34,14 @@ body {
 
     min-height: 100vh; 
 }
+
+.container {
+    max-width: 144rem;
+    margin: 8rem auto;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.04em;
+}
