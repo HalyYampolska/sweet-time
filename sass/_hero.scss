@@ -1,31 +1,35 @@
 .hero {
-    height: 70rem; 
+    height: 65rem; 
     background-color: var(--color-block);
+    position: relative;
  
     &__img {
         width: 97rem;
-        height: 51rem;
+        height: 52rem;
         position: absolute;
         right: 10rem;
-        top: 27rem
+        top: 13rem;
     }
 
     &__title {
         position: absolute;
-        top: 35rem;
+        top: 22rem;
         left: 15rem;
     }
 
     &__description {
         font-size: 2rem;
         position: absolute;
-        top: 40rem;
+        top: 28rem;
         left: 15rem;
+    }
 
     &__btn {
         position: absolute;
-        top: 45rem;
+        top: 35rem;
         left: 15rem;
+        background: linear-gradient(180deg, #FA5959 0%, rgba(255, 107, 107, 0.85) 100%);
+        color: var(--color-background);
     }
-    }
+    
 }

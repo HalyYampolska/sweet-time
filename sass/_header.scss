@@ -1,5 +1,5 @@
 .header {
-    height: 7.8rem;
+    height: 8rem;
     
     background-color: var(--color-block);
 
@@ -8,6 +8,9 @@
     align-items: center;
 
     font-size: 2rem;
+
+    padding-top: 5rem;
+    padding-bottom: 2rem;
 }
 
 .logo {
@@ -19,7 +22,7 @@
 }
 
 .sidebar {
-    width: 80rem;
+    width: 85rem;
 
     &__top {
         list-style: none;
