@@ -14,27 +14,76 @@
     <body>
         <dev class="container">
             <header class="header">
-                <img src="img/logo.png" alt="Logo" class="logo">
-                    <nav class="sidebar">
-                        <ul class="sidebar__top">
-                            <li class="sidebar__list">Dessert Gallery</li>
-                            <li class="sidebar__list">About me</li>
-                            <li class="sidebar__list">Delivery & Paiment</li>
-                            <li class="sidebar__list">Reviews</li>
-                            <li class="sidebar__list">Contact</li>
+                <img src="img/logo.png" alt="Logo" class="header__logo">
+                    <nav class="header__sidebar">
+                        <ul class="header__sidebar--top">
+                            <li class="header__sidebar--list">Desserts Gallery</li>
+                            <li class="header__sidebar--list">About me</li>
+                            <li class="header__sidebar--list">Delivery & Paiment</li>
+                            <li class="header__sidebar--list">Reviews</li>
+                            <li class="header__sidebar--list">Contact</li>
                         </ul>
                     </nav>
-                    <button class="btn btn__header">Contact us</button> 
+                    <button class="btn header__btn">Contact us</button> 
             </header>
             
             <div class="hero">
-                <h1 class="hero__title">Handmade Cakes and desserts</h1>
+                <h1 class="hero__title">Handmade Cakes & Desserts</h1>
                 <p class="hero__description">Privat confectionery in St. Petersburg</p>
                 <button class="btn hero__btn">Order</button>
                 <img src="img/cake-main-1.png" alt="Cake" class="hero__img">
+            
+                <img src="img/strawberry-1.png" alt="Strawberry" class="hero__strawberry-1">
             </div>
 
-            <div class="gallery">Dessert Gallery</div>
+
+            <section class="gallery">
+                <h2 class="gallery__title">Desserts Gallery</h2>
+                
+                <img src="img/blueberry-2.png" alt="Btueberry" class="gallery__blueberry">
+
+                <div class="gallery__group-btn">
+                    <button class="btn gallery__btn">Cakes</button>
+                    <button class="btn gallery__btn gallery__btn--demo">Capcakes</button>
+                    <button class="btn gallery__btn">Marshmallows</button>
+                    <button class="btn gallery__btn">Mini desserts</button>
+                </div>
+            
+                <div class="gallery__product">
+                    
+                    <div class="gallery__cart">
+                        <img src="img/cakes-1.jpg" alt="Shoko with caramel" class="gallery__pic">
+                        <h3 class="gallery__title-2">Chocolate cupcakes</h3>
+                        <p class="gallery__description">Soft chocolate cake, <br>salted caramel <br>and ganache cream</p>
+                        <p class="gallery_description">from 6 pieces</p>
+                        <p class="gallery__price">$8.4</p>
+                    </div>
+
+                    <div class="gallery__cart">
+                        <img src="img/cakes-2.jpg" alt="Berry ice cream" class="gallery__pic">
+                        <h3 class="gallery__title-2">Berry ice cream</h3>
+                        <p class="gallery__description">White sponge cake with <br>berries and soft <br>cream cheese</p>
+                        <p class="gallery_description">from 6 pieces</p>
+                        <p class="gallery__price">$10</p>
+                    </div>
+
+                    <div class="gallery__cart">
+                        <img src="img/cakes-3.jpg" alt="Red velvet"class="gallery__pic">
+                        <h3 class="gallery__title-2">Red velvet</h3>
+                        <p class="gallery__description-2">Soft red biscuit, <br>soft cream cheese</p>
+                        <p class="gallery_description">from 6 pieces</p>
+                        <p class="gallery__price">$8.5</p>
+                    </div>
+                </div>
+
+                <div class="gallery__button">
+                <button class="btn gallery__button--2" href="#">See more <span>&#10140;</span></button> 
+                </div>
+
+            </section>
+
+            <div class="portfolio">Potrfolio</div>
+
 
         </dev>    
     </body>
