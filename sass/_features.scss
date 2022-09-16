@@ -1,0 +1,76 @@
+.features {
+    position: relative;
+
+    &__raspberry {
+        position: absolute;
+        width: 10rem;
+        right: 30rem;
+    }
+
+    &__about {
+        height: 30rem;
+        margin-bottom: 5rem;
+
+        display: flex;
+        align-items: center;
+        
+
+        &--pic {
+            width: 24rem;
+            height: 26rem;
+            border-radius: 50%;
+            margin: 0 5rem 0 10rem;
+
+        }
+
+        &--heading {
+            padding-bottom: 2.5rem;
+        }
+
+        &--me {
+            padding-right: 5rem;
+        } 
+    }
+
+    &__block {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 4rem 0 4rem;
+    
+
+        &--icons {
+            border: 2px solid rgba(237, 74, 74, 0.2);
+            border-radius: 5px;
+            width: 20rem;
+            height: 26rem;
+            padding: 5rem 3rem 5rem 3rem;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+
+            &-pic {
+                width: 5rem;
+                fill: var(--color-icon);
+                padding-bottom: 3rem;
+                
+            }
+
+            &-text {
+                text-align: center;
+            }
+        }
+
+    }
+
+    &__blueberry {
+        width: 14rem;
+        
+        position: absolute;
+        top: 65rem;
+        left: -5rem;
+    }
+
+}

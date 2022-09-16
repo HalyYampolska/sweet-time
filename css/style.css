@@ -94,7 +94,8 @@ h2 {
   font-weight: 600; }
 
 p {
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+  padding-bottom: 1rem; }
 
 a {
   text-decoration-line: none;
@@ -182,7 +183,7 @@ a {
     padding-bottom: 4.2rem; }
   .gallery__price {
     font-size: 30px;
-    padding: 1.25rem 0 2.5rem 0; }
+    padding: 2rem 0 2.5rem 0; }
   .gallery__button {
     display: flex; }
     .gallery__button--2 {
@@ -192,3 +193,49 @@ a {
       background-color: var(--color-icon);
       color: var(--color-background);
       text-transform: uppercase; }
+
+.features {
+  position: relative; }
+  .features__raspberry {
+    position: absolute;
+    width: 10rem;
+    right: 30rem; }
+  .features__about {
+    height: 30rem;
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center; }
+    .features__about--pic {
+      width: 24rem;
+      height: 26rem;
+      border-radius: 50%;
+      margin: 0 5rem 0 10rem; }
+    .features__about--heading {
+      padding-bottom: 2.5rem; }
+    .features__about--me {
+      padding-right: 5rem; }
+  .features__block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 4rem 0 4rem; }
+    .features__block--icons {
+      border: 2px solid rgba(237, 74, 74, 0.2);
+      border-radius: 5px;
+      width: 20rem;
+      height: 26rem;
+      padding: 5rem 3rem 5rem 3rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .features__block--icons-pic {
+        width: 5rem;
+        fill: var(--color-icon);
+        padding-bottom: 3rem; }
+      .features__block--icons-text {
+        text-align: center; }
+  .features__blueberry {
+    width: 14rem;
+    position: absolute;
+    top: 65rem;
+    left: -5rem; }
