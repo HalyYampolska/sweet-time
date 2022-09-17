@@ -31,6 +31,13 @@ a {
 
     border: none;
     cursor: pointer;
-    
 }
 
+i {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    display: inline-block;
+    background-color: var( --color-icon);
+    -webkit-background-clip: text;
+    color: transparent;
+}
