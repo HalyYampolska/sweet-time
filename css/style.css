@@ -91,8 +91,7 @@ h1 {
 
 h2 {
   font-size: 2.4rem;
-  font-weight: 600;
-  margin-bottom: 7rem; }
+  font-weight: 600; }
 
 p {
   font-size: 1.4rem; }
@@ -149,8 +148,9 @@ i {
   display: block;
   position: relative; }
   .gallery__title {
-    padding-top: 10rem;
-    text-align: center; }
+    padding-top: 12rem;
+    text-align: center;
+    margin-bottom: 6rem; }
   .gallery__blueberry {
     width: 8rem;
     position: absolute;
@@ -248,7 +248,8 @@ i {
 .portfolio {
   margin: 12rem 0; }
   .portfolio__heading {
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 7rem; }
   .portfolio__projects {
     display: grid;
     grid-template-columns: 5rem repeat(5, 1fr) 5rem;
@@ -312,7 +313,8 @@ i {
     top: -4rem;
     right: 0.1rem; }
   .shipping__heading {
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 7rem; }
   .shipping__terms {
     display: flex;
     justify-content: center;
@@ -329,3 +331,48 @@ i {
       background-color: rgba(237, 74, 74, 0.1); }
   .shipping__terms--2 {
     text-align: center; }
+
+.reviews {
+  margin-top: 10rem;
+  position: relative; }
+  .reviews__heading {
+    text-align: center;
+    margin-bottom: 7rem; }
+  .reviews__clients {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10rem; }
+    .reviews__clients--client {
+      width: 28rem;
+      height: 44rem;
+      border: 3px solid rgba(237, 74, 74, 0.1);
+      border-radius: 5px;
+      padding: 2.5rem; }
+      .reviews__clients--client-pic {
+        width: 12rem;
+        margin: 1.5rem 0; }
+      .reviews__clients--client-name {
+        margin: 0.5rem 0 2rem 0; }
+  .reviews__cta {
+    height: 15rem;
+    display: block; }
+    .reviews__cta--heading {
+      margin-top: 15rem;
+      text-align: center; }
+    .reviews__cta--description {
+      text-align: center;
+      margin-top: 2rem; }
+  .reviews__btn {
+    width: auto;
+    margin: 0 auto 10rem auto;
+    box-shadow: var(--shadow-dark);
+    background-color: var(--color-icon);
+    color: var(--color-background);
+    padding: 1.5rem 2rem;
+    display: flex;
+    text-transform: uppercase; }
+  .reviews__strawberry {
+    position: absolute;
+    width: 17rem;
+    top: 70rem;
+    left: 5rem; }

@@ -1,0 +1,76 @@
+.reviews {
+    margin-top: 10rem;
+
+    position: relative;
+
+    &__heading {
+        text-align: center;
+        margin-bottom: 7rem;
+    }
+
+    &__clients {
+
+        display: flex;
+        justify-content: space-around;
+
+        margin: 0 10rem;
+
+        &--client {
+            width: 28rem;
+            height: 44rem;
+            border: 3px solid rgba(237, 74, 74, 0.1);
+            border-radius: 5px;
+
+            padding: 2.5rem;
+
+            &-pic {
+                width: 12rem;
+                margin: 1.5rem 0;
+                }
+    
+            &-name {
+                 margin: 0.5rem 0 2rem 0;
+            }
+
+        }   
+
+    }
+
+    &__cta {
+        height: 15rem;
+        display: block;
+
+        &--heading {
+            margin-top: 15rem;
+            text-align: center;
+        }
+
+        &--description {
+            text-align: center;
+            margin-top: 2rem;
+        }
+    }
+
+    &__btn {
+        width: auto;
+        margin: 0 auto 10rem auto;
+        box-shadow: var(--shadow-dark);
+        background-color: var(--color-icon);
+        color: var(--color-background);
+        padding: 1.5rem 2rem;
+
+        display: flex;
+
+        text-transform: uppercase;
+    }
+
+    &__strawberry {
+        position: absolute;
+        width: 17rem;
+        top: 70rem;
+        left: 5rem;
+
+    }
+
+
+}
