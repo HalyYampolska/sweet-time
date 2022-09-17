@@ -1,0 +1,42 @@
+.shipping {
+    
+    position: relative;
+
+    &__strawberry {
+        width: 14rem;
+
+        position: absolute;
+        top: -4rem;
+        right: 0.1rem;
+    }
+
+    &__heading {
+        text-align: center;
+    }
+
+    &__terms {
+        display: flex;
+        justify-content: center;
+        column-gap: 6rem;
+
+        padding-bottom: 5rem;
+        
+        &--delivery {
+
+            width: 40rem;
+            height: 15rem;
+            padding: 5rem;
+            border-radius: 5px;
+
+            display: flex;
+            align-items: center;
+            column-gap: 5rem;
+
+            background-color: rgba(237, 74, 74, 0.1);
+        }
+    }
+    &__terms--2 {
+        text-align: center;
+    }
+}
+

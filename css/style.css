@@ -95,8 +95,7 @@ h2 {
   margin-bottom: 7rem; }
 
 p {
-  font-size: 1.4rem;
-  padding-bottom: 1rem; }
+  font-size: 1.4rem; }
 
 a {
   text-decoration-line: none;
@@ -114,7 +113,6 @@ a {
 
 i {
   font-size: 4rem;
-  margin-bottom: 4rem;
   display: inline-block;
   background-color: var(--color-icon);
   -webkit-background-clip: text;
@@ -239,7 +237,8 @@ i {
       flex-direction: column;
       align-items: center; }
       .features__block--icons-text {
-        text-align: center; }
+        text-align: center;
+        padding-top: 4rem; }
   .features__blueberry {
     width: 14rem;
     position: absolute;
@@ -304,3 +303,29 @@ i {
     color: var(--color-background);
     display: flex;
     text-transform: uppercase; }
+
+.shipping {
+  position: relative; }
+  .shipping__strawberry {
+    width: 14rem;
+    position: absolute;
+    top: -4rem;
+    right: 0.1rem; }
+  .shipping__heading {
+    text-align: center; }
+  .shipping__terms {
+    display: flex;
+    justify-content: center;
+    column-gap: 6rem;
+    padding-bottom: 5rem; }
+    .shipping__terms--delivery {
+      width: 40rem;
+      height: 15rem;
+      padding: 5rem;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      column-gap: 5rem;
+      background-color: rgba(237, 74, 74, 0.1); }
+  .shipping__terms--2 {
+    text-align: center; }
