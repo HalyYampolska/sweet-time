@@ -19,6 +19,9 @@ a {
     color: var(--color-text);
 }
 
+/////////////////////////////
+/// BUTTON
+
 .btn {
     font-family: inherit;
     letter-spacing: inherit;
@@ -30,6 +33,23 @@ a {
 
     border: none;
     cursor: pointer;
+}
+
+.btn-white {
+    text-transform: uppercase;
+    box-shadow: var(--shadow-dark);
+
+    &:focus {
+        outline: none; 
+    }
+
+    &:active {
+        transform: translateY(2px);
+    }
+}
+
+.btn-rose {
+    
 }
 
 i {

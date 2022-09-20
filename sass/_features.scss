@@ -34,14 +34,14 @@
 
     &__block {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-        margin: 0 4rem 0 4rem;
+        margin: 0 10rem 0 10rem;
     
 
         &--icons {
             border: 3px solid rgba(237, 74, 74, 0.1);
-            border-radius: 5px;
+            //border-radius: 5px;
             width: 20rem;
             height: 26rem;
             padding: 5rem 3rem 5rem 3rem;
@@ -52,8 +52,14 @@
 
             &-text {
                 text-align: center;
-                padding-top: 4rem;
+                padding-top: 3rem;
             }
+        }
+
+        &--icon {
+            width: 4rem;
+            height: 4rem;
+            fill: var( --color-icon);
         }
 
     }
@@ -65,5 +71,7 @@
         top: 65rem;
         left: -5rem;
     }
+
+
 
 }

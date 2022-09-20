@@ -1,7 +1,12 @@
 :root {
-  --color-background: #E5E5E5;
-  --color-block: #FCBFBF66;
-  --color-icon: #ED4A4A;
+    --color-primary: #FCBFBF66;
+    --color-secondary: #ed4a4a;
+    //--color-third:#C73535;
+    //--color-yes: #066F00;
+    
+    --color-background: #E5E5E5;
+  
+  --color-icon: #ed4a4a;
   --color-text:#000; 
 
   --shadow-dark: 0 2px 2px rgba(0,0,0,0.3);
@@ -41,7 +46,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 1.6rem;
-    line-height: 2.5rem;
+    //line-height: 2.5rem;
     letter-spacing: 0.04em;
 }
 
