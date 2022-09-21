@@ -1,6 +1,8 @@
 .portfolio {
     margin: 12rem 0;
 
+    position: relative;
+
 
     &__heading {
         text-align: center;
@@ -10,70 +12,58 @@
     &__projects {
 
         display: grid;
-        //background-color: orangered;
 
         grid-template-columns: 5rem repeat(5, 1fr) 5rem;
-        grid-template-rows: repeat(2, 200px);
+        grid-template-rows: repeat(2, 200px) 10rem;
         grid-gap: 2rem;
 
         padding: auto;
 
-        &--item-1 {
+        &--project-1 {
             grid-column: 2 / span 2;
             grid-row: 1 / span 2;
             
-            position: relative;
+            //position: relative;
 
         }
 
-        &--1-desc {
-            width: inherit;
-            position: absolute;
-            top: 36rem;
-            background-color: #303030;
-            color: var(--color-background);
-            padding: 5px 0;
-            text-align: center;
-            
-            opacity: 0;
-        }
-
-        &--item-1:hover
-        &--1-desc {
-            visibility: visible;
-            opacity: 1;
-            z-index: 2;
-        }
-
-
-        &--item-2 {
+        &--project-2 {
             grid-column: 4 / 5;
             grid-row: 1 / 2;
         }
 
-        &--item-3 {
+        &--project-3 {
             grid-column: 5 / 6;
             grid-row: 1 / 2;
         }
 
-        &--item-4 {
+        &--project-4 {
             grid-column: 6 / 7;
             grid-row: 1 / 2;
         }
 
-        &--item-5 {
+        &--project-5 {
             grid-column: 4 / 5;
             grid-row: 2 / 3;
         }
 
-        &--item-6 {
+        &--project-6 {
             grid-column: 5 / 6;
             grid-row: 2 / 3;
         }
 
-        &--item-7 {
+        &--project-7 {
             grid-column: 6 / 7;
             grid-row: 2 / 3;
+        }
+
+        &--button {
+            grid-column: 4 / 5;
+            grid-row: 3 / 4;
+
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
         }
 
         &--img {
@@ -81,23 +71,38 @@
             height: 100%;
             object-fit: cover;
             display: block;
-            
 
-            
+            position: absolute;
         }
 
     }
 
-    &__btn {
-        
-        width: auto;
-        margin: 10rem auto 10rem auto;
-        box-shadow: var(--shadow-dark);
-        background-color: var(--color-icon);
-        color: var(--color-background);
-
-        display: flex;
-
-        text-transform: uppercase;
-    }
 }
+
+.image-container {
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .image-caption {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    opacity: 0;
+
+    height: auto;
+    bottom: 0;
+    padding: 10px 0;
+  }
+
+  .image-caption p {
+    text-align: center;
+    font-family: inherit;
+    padding: 5px;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .image-container:hover .image-caption {
+    opacity: 1;
+  }
