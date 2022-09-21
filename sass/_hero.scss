@@ -1,6 +1,6 @@
 .hero {
     height: 38.6rem; 
-    background-color: var(--color-block);
+    background-color: var(--color-primary);
     display: flex;
 
     position: relative;
@@ -16,52 +16,21 @@
 
     &__title {
         position: absolute;
-        top: 12rem;
-        left: 8rem;
+        top: 8rem;
+        left: 5rem;
         line-height: 4rem;
     }
 
     &__description {
         position: absolute;
         top: 18rem;
-        left: 8rem;
+        left: 5rem;
     }
 
     &__btn {
         position: absolute;
         top: 24rem;
-        left: 8rem;
-        background: linear-gradient(180deg, #FA5959 0%, rgba(255, 107, 107, 0.85) 100%);
-        text-transform: uppercase;
-        box-shadow: var(--shadow-dark);
-        color: var(--color-background);
-
-        &:hover {
-            background-color: var(--color-icon);
-        }
-
-        &:focus {
-            outline: none;
-            animation: pulsate 2s infinite;
-
-            @keyframes pulsate {
-                0% {
-                   transform: scale(1);
-                   box-shadow: none;
-               }
-   
-               50% {
-                   transform: scale(1.05);
-                   box-shadow: 0 1rem 4rem rgba(0,0,0,0.25);
-               }
-   
-               100% {
-                   transform: scale(1);
-                   box-shadow: none;
-               }
-           }
-        }
-
+        left: 5rem;
     }
             
     &__strawberry-1 {
@@ -70,7 +39,6 @@
         position: absolute;
         top: 32rem;
         left: 24rem;
-
     }
     
 }

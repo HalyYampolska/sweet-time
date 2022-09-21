@@ -6,7 +6,6 @@ h1 {
 h2 {
     font-size: 2.4rem;
     font-weight: 600;
-    //margin-bottom: 7rem;
 
 }
 
@@ -36,8 +35,10 @@ a {
 }
 
 .btn-white {
+
     text-transform: uppercase;
     box-shadow: var(--shadow-dark);
+    background-color: #fff;
 
     &:focus {
         outline: none; 
@@ -48,14 +49,46 @@ a {
     }
 }
 
-.btn-rose {
+.btn-red {
+
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #FA5959 0%, rgba(255, 107, 107, 0.85) 100%);
     
+    box-shadow: var(--shadow-dark);
+    color: var(--color-background);
+
+    &:hover {
+        background-color: var(--color-icon);
+    }
+
+    &:focus {
+        outline: none;
+        animation: pulsate 2s infinite;
+
+        @keyframes pulsate {
+            0% {
+               transform: scale(1);
+               box-shadow: none;
+           }
+
+           50% {
+               transform: scale(1.05);
+               box-shadow: 0 1rem 4rem rgba(0,0,0,0.25);
+           }
+
+           100% {
+               transform: scale(1);
+               box-shadow: none;
+           }
+       }
+    }
+
 }
 
 i {
     font-size: 4rem;
     display: inline-block;
-    background-color: var( --color-icon);
+    background-color: var( --color-secondary);
     -webkit-background-clip: text;
     color: transparent;
 }
