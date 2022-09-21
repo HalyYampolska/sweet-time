@@ -1,6 +1,8 @@
 .features {
     position: relative;
 
+    margin-top: 10rem;
+
     &__raspberry {
         position: absolute;
         width: 10rem;
@@ -17,9 +19,9 @@
 
         &--pic {
             width: 24rem;
-            height: 26rem;
+            height: 24rem;
             border-radius: 50%;
-            margin: 0 5rem 0 10rem;
+            margin: 0 5rem;
 
         }
 
@@ -32,16 +34,13 @@
         } 
     }
 
-    &__block {
+    &__blocks {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 0 10rem 0 10rem;
-    
+        margin: 0 5rem;
 
-        &--icons {
-            border: 3px solid rgba(237, 74, 74, 0.1);
-            //border-radius: 5px;
+        &--cart {
             width: 20rem;
             height: 26rem;
             padding: 5rem 3rem 5rem 3rem;
@@ -50,28 +49,31 @@
             flex-direction: column;
             align-items: center;
 
+            &:hover {
+                border: 3px solid rgba(252, 192, 192, 0.4);
+                border-radius: 10px;
+            }
+        
+            &-icon {
+                width: 4rem;
+                height: 4rem;
+                fill: var(--color-secondary);
+            }
+
             &-text {
                 text-align: center;
                 padding-top: 3rem;
             }
+        
         }
-
-        &--icon {
-            width: 4rem;
-            height: 4rem;
-            fill: var( --color-icon);
-        }
-
     }
 
     &__blueberry {
         width: 14rem;
         
         position: absolute;
-        top: 65rem;
+        top: 60rem;
         left: -5rem;
     }
-
-
 
 }
