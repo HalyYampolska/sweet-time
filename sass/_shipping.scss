@@ -1,14 +1,4 @@
 .shipping {
-    
-    position: relative;
-
-    &__strawberry {
-        width: 14rem;
-
-        position: absolute;
-        top: -4rem;
-        right: 0.1rem;
-    }
 
     &__heading {
         text-align: center;
@@ -24,10 +14,10 @@
         
         &--delivery {
 
-            width: 40rem;
+            width: 52rem;
             height: 15rem;
             padding: 5rem;
-            border-radius: 5px;
+            border-radius: 10px;
 
             display: flex;
             align-items: center;
@@ -38,6 +28,12 @@
     }
     &__terms--2 {
         text-align: center;
+    }
+
+    .shipping__icons {
+        width: 4rem;
+        height: 4rem;
+        fill: var(--color-secondary);
     }
 }
 

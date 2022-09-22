@@ -33,7 +33,7 @@ body {
   margin: 8rem auto;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 2rem;
   letter-spacing: 0.04em; }
 
 .text-menu {
@@ -77,7 +77,7 @@ h2 {
   font-weight: 600; }
 
 p {
-  font-size: 1.4rem; }
+  font-size: 1.6rem; }
 
 a {
   text-decoration-line: none;
@@ -291,6 +291,11 @@ li {
 .portfolio {
   margin: 12rem 0;
   position: relative; }
+  .portfolio__strawberry {
+    width: 14rem;
+    position: absolute;
+    top: 60rem;
+    right: 0.1rem; }
   .portfolio__heading {
     text-align: center;
     margin-bottom: 7rem; }
@@ -345,7 +350,12 @@ li {
   opacity: 0;
   height: auto;
   bottom: 0;
-  padding: 10px 0; }
+  padding: 10px 0;
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out; }
 
 .image-caption p {
   text-align: center;
@@ -357,32 +367,32 @@ li {
 .image-container:hover .image-caption {
   opacity: 1; }
 
-.shipping {
-  position: relative; }
-  .shipping__strawberry {
-    width: 14rem;
-    position: absolute;
-    top: -4rem;
-    right: 0.1rem; }
-  .shipping__heading {
-    text-align: center;
-    margin-bottom: 7rem; }
-  .shipping__terms {
+.shipping__heading {
+  text-align: center;
+  margin-bottom: 7rem; }
+
+.shipping__terms {
+  display: flex;
+  justify-content: center;
+  column-gap: 6rem;
+  padding-bottom: 5rem; }
+  .shipping__terms--delivery {
+    width: 52rem;
+    height: 15rem;
+    padding: 5rem;
+    border-radius: 10px;
     display: flex;
-    justify-content: center;
-    column-gap: 6rem;
-    padding-bottom: 5rem; }
-    .shipping__terms--delivery {
-      width: 40rem;
-      height: 15rem;
-      padding: 5rem;
-      border-radius: 5px;
-      display: flex;
-      align-items: center;
-      column-gap: 5rem;
-      background-color: rgba(237, 74, 74, 0.1); }
-  .shipping__terms--2 {
-    text-align: center; }
+    align-items: center;
+    column-gap: 5rem;
+    background-color: rgba(237, 74, 74, 0.1); }
+
+.shipping__terms--2 {
+  text-align: center; }
+
+.shipping .shipping__icons {
+  width: 4rem;
+  height: 4rem;
+  fill: var(--color-secondary); }
 
 .reviews {
   margin-top: 10rem;

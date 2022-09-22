@@ -3,6 +3,14 @@
 
     position: relative;
 
+    &__strawberry {
+        width: 14rem;
+    
+        position: absolute;
+        top: 60rem;
+        right: 0.1rem;
+    }
+
 
     &__heading {
         text-align: center;
@@ -93,6 +101,12 @@
     height: auto;
     bottom: 0;
     padding: 10px 0;
+
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
   }
 
   .image-caption p {
@@ -106,3 +120,5 @@
   .image-container:hover .image-caption {
     opacity: 1;
   }
+
+  
