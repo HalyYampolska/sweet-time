@@ -18,7 +18,7 @@
         &--client {
             width: 28rem;
             height: 44rem;
-            border: 3px solid rgba(237, 74, 74, 0.1);
+            border: 3px solid var(--color-background);
             border-radius: 5px;
 
             padding: 2.5rem;
@@ -54,20 +54,14 @@
     &__btn {
         width: auto;
         margin: 0 auto 10rem auto;
-        box-shadow: var(--shadow-dark);
-        background-color: var(--color-icon);
-        color: var(--color-background);
-        padding: 1.5rem 2rem;
 
         display: flex;
-
-        text-transform: uppercase;
     }
 
     &__strawberry {
         position: absolute;
-        width: 17rem;
-        top: 70rem;
+        width: 20rem;
+        top: 55rem;
         left: 5rem;
 
     }

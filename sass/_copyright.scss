@@ -1,8 +1,14 @@
 
 .copyright {
     text-align: center;
-    color: #ED4A4A;
-    border-top: 2px solid white;
+    color: var( --color-secondary);
+    background-color: var(--color-primary);
+    border-top: 2px solid var(--color-background);
     padding: 1.5rem 0;
-    font-size: 1.4rem;;
+    font-size: 1.4rem;
+
+    &__link {
+        text-decoration-line: underline;
+        color: var( --color-secondary);
+    }
 }

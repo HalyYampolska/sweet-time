@@ -69,12 +69,16 @@ body {
     left: 24rem; }
 
 h1 {
-  font-size: 2.8rem;
+  font-size: 3rem;
   font-weight: 600; }
 
 h2 {
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   font-weight: 600; }
+
+h3 {
+  font-size: 2rem;
+  font-weight: 400; }
 
 p {
   font-size: 1.6rem; }
@@ -88,7 +92,7 @@ a {
   letter-spacing: inherit;
   font-size: 1.2rem;
   text-decoration-line: none;
-  padding: 10px 20px;
+  padding: 1.2rem 2rem;
   border-radius: 25px;
   border: none;
   cursor: pointer; }
@@ -173,11 +177,13 @@ li {
       transform: translateX(-50%) scaleX(0);
       transform-origin: 50% 50%;
       width: 100%;
-      height: 1px;
+      height: 2px;
       background-color: rgba(255, 255, 255, 0.8);
       transition: transform 250ms; }
-    .text-menu-underline:hover::after {
-      transform: translateX(-50%) scaleX(1); }
+    .text-menu-underline:hover {
+      color: var(--color-secondary); }
+      .text-menu-underline:hover::after {
+        transform: translateX(-50%) scaleX(1); }
 
 .gallery {
   display: block;
@@ -295,7 +301,7 @@ li {
     width: 14rem;
     position: absolute;
     top: 60rem;
-    right: 0.1rem; }
+    right: 1.5rem; }
   .portfolio__heading {
     text-align: center;
     margin-bottom: 7rem; }
@@ -407,7 +413,7 @@ li {
     .reviews__clients--client {
       width: 28rem;
       height: 44rem;
-      border: 3px solid rgba(237, 74, 74, 0.1);
+      border: 3px solid var(--color-background);
       border-radius: 5px;
       padding: 2.5rem; }
       .reviews__clients--client-pic {
@@ -427,88 +433,84 @@ li {
   .reviews__btn {
     width: auto;
     margin: 0 auto 10rem auto;
-    box-shadow: var(--shadow-dark);
-    background-color: var(--color-icon);
-    color: var(--color-background);
-    padding: 1.5rem 2rem;
-    display: flex;
-    text-transform: uppercase; }
+    display: flex; }
   .reviews__strawberry {
     position: absolute;
-    width: 17rem;
-    top: 70rem;
+    width: 20rem;
+    top: 55rem;
     left: 5rem; }
 
 .contacts {
   position: relative;
   width: auto;
-  height: 50rem;
+  height: 65rem;
   background: linear-gradient(0deg, #ffe5e5, #ffe5e5 95%, rgba(255, 229, 229, 0) 100%);
   -webkit-gradient: linear, left bottom, left top, from(#ffe5e5), color-stop(95%, #ffe5e5), to(rgba(255, 229, 229, 0));
   display: flex; }
   .contacts__cup {
-    width: 50rem;
+    width: 65rem;
     position: absolute;
+    top: 4rem;
     right: 8rem; }
   .contacts__berry--1 {
     position: absolute;
-    width: 22rem;
-    top: 25rem;
+    width: 24rem;
+    top: 35rem;
     left: 40rem; }
   .contacts__berry--2 {
     position: absolute;
     width: 14rem;
     transform: rotate(260deg);
-    top: 10rem;
-    right: 1rem; }
+    top: 25rem;
+    right: 1.2rem; }
   .contacts__berry--3 {
     position: absolute;
-    width: 10rem;
-    top: 3rem;
-    left: 4.5rem; }
+    width: 12rem;
+    top: 50rem;
+    right: 25rem; }
   .contacts__heading {
     text-align: start;
     padding-bottom: 5rem; }
   .contacts__adress {
     display: flex;
-    background: #FFFFFF;
+    background: #FFF;
     border-radius: 20px;
     flex-direction: column;
     justify-items: start;
     justify-content: start;
     justify-items: center;
-    width: 90rem;
+    width: 110rem;
+    height: 45rem;
     margin: auto;
     padding: 5rem 0 5rem 5rem; }
     .contacts__adress--block {
       display: flex;
       align-items: center;
-      justify-items: start; }
+      justify-items: start;
+      padding-bottom: 1.2rem; }
       .contacts__adress--block-icon {
-        font-size: 2.5rem;
-        padding-bottom: 1.5rem; }
+        width: 4rem;
+        height: 4rem;
+        fill: var(--color-secondary); }
       .contacts__adress--block-text {
-        padding-left: 1rem;
+        padding-top: 0.5rem;
+        padding-left: 1.5rem;
         padding-bottom: 1.5rem; }
   .contacts__btn {
     display: flex;
     align-self: baseline;
-    margin-top: 3.5rem;
-    box-shadow: var(--shadow-dark);
-    background-color: var(--color-icon);
-    color: var(--color-background);
-    text-transform: uppercase; }
+    margin-top: 3.5rem; }
 
 .footer {
   display: grid;
-  grid-template-columns: 7.5rem repeat(4, 1fr) 7.5rem; }
+  grid-template-columns: 7.5rem repeat(4, 1fr) 7.5rem;
+  background-color: var(--color-primary); }
   .footer__logo {
     grid-column: 2 / 3;
+    height: 4.6rem;
+    width: 14.9rem;
     margin-top: 4rem;
-    margin-bottom: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
+    margin-bottom: 4rem; }
   .footer__text--1 {
     grid-column: 3 / 4;
     display: flex;
@@ -518,25 +520,36 @@ li {
     grid-column: 4 / 5;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    padding-left: 3rem; }
   .footer__text--3 {
     grid-column: 5 / 6;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: flex-end; }
   .footer__icons {
-    font-size: 2rem;
-    margin: 0.5rem; }
+    padding-left: 2px;
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: var(--color-secondary); }
+    .footer__icons--block {
+      margin-right: 1rem; }
   .footer__btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1.5rem; }
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+    margin-top: 1.5rem; }
 
 .copyright {
   text-align: center;
-  color: #ED4A4A;
-  border-top: 2px solid white;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  border-top: 2px solid var(--color-background);
   padding: 1.5rem 0;
   font-size: 1.4rem; }
+  .copyright__link {
+    text-decoration-line: underline;
+    color: var(--color-secondary); }
