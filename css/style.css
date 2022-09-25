@@ -64,7 +64,7 @@ body {
     position: absolute;
     right: 4rem;
     top: 4rem; }
-    @media only screen and (min-width: 87.5em) {
+    @media only screen and (min-width: 75em) {
       .hero__img {
         width: 62rem;
         height: auto;
@@ -82,7 +82,7 @@ body {
     top: 8rem;
     left: 5rem;
     line-height: 4rem; }
-    @media only screen and (min-width: 87.5em) {
+    @media only screen and (min-width: 75em) {
       .hero__title {
         left: 10rem;
         line-height: 5rem; } }
@@ -95,7 +95,7 @@ body {
     position: absolute;
     top: 18rem;
     left: 5rem; }
-    @media only screen and (min-width: 87.5em) {
+    @media only screen and (min-width: 75em) {
       .hero__description {
         left: 10rem;
         margin-top: 2rem; } }
@@ -107,7 +107,7 @@ body {
     position: absolute;
     top: 24rem;
     left: 5rem; }
-    @media only screen and (min-width: 87.5em) {
+    @media only screen and (min-width: 75em) {
       .hero__btn {
         left: 10rem;
         margin-top: 2rem; } }
@@ -120,7 +120,7 @@ body {
     position: absolute;
     top: 32rem;
     left: 24rem; }
-    @media only screen and (min-width: 87.5em) {
+    @media only screen and (min-width: 75em) {
       .hero__strawberry-1 {
         width: 20rem;
         left: 38rem; } }
@@ -142,7 +142,7 @@ body {
 .heading {
   font-size: 3rem;
   font-weight: 400; }
-  @media only screen and (min-width: 87.5em) {
+  @media only screen and (min-width: 75em) {
     .heading {
       font-size: 3.5rem; } }
   @media only screen and (max-width: 75em) {
@@ -155,7 +155,7 @@ body {
 .heading-2 {
   font-size: 2.6rem;
   font-weight: 400; }
-  @media only screen and (min-width: 87.5em) {
+  @media only screen and (min-width: 75em) {
     .heading-2 {
       font-size: 3rem;
       font-weight: 600; } }
@@ -169,7 +169,7 @@ body {
 .heading-3 {
   font-size: 2rem;
   font-weight: 400; }
-  @media only screen and (min-width: 87.5em) {
+  @media only screen and (min-width: 75em) {
     .heading-3 {
       font-size: 2rem;
       font-weight: 400; } }
@@ -181,7 +181,7 @@ body {
 .paragraph {
   font-size: 1.6rem;
   font-weight: 300; }
-  @media only screen and (min-width: 87.5em) {
+  @media only screen and (min-width: 75em) {
     .paragraph {
       font-size: 1.8rem;
       font-weight: 400; } }
@@ -208,7 +208,7 @@ body {
   border-radius: 25px;
   border: none;
   cursor: pointer; }
-  @media only screen and (min-width: 87.5em) {
+  @media only screen and (min-width: 75em) {
     .btn {
       font-size: 1.8rem; } }
   @media only screen and (max-width: 56.25em) {
@@ -259,7 +259,7 @@ li {
 
 .text-menu {
   font-size: 1.4rem; }
-  @media only screen and (min-width: 87.5em) {
+  @media only screen and (min-width: 75em) {
     .text-menu {
       font-size: 1.8rem; } }
   @media only screen and (max-width: 56.25em) {
@@ -279,7 +279,7 @@ li {
     margin-left: 5rem;
     margin-bottom: 10px;
     align-items: center; }
-    @media only screen and (min-width: 87.5em) {
+    @media only screen and (min-width: 75em) {
       .header__logo {
         margin-left: 10rem; } }
     @media only screen and (max-width: 56.25em) {
@@ -294,7 +294,7 @@ li {
         margin-left: 5rem; } }
   .header__sidebar {
     width: 60rem; }
-    @media only screen and (min-width: 87.5em) {
+    @media only screen and (min-width: 75em) {
       .header__sidebar {
         margin-top: 3rem; } }
     @media only screen and (max-width: 75em) {
@@ -406,7 +406,7 @@ li {
     position: absolute;
     top: 12rem;
     right: 15rem; }
-    @media only screen and (min-width: 87.5em) {
+    @media only screen and (min-width: 75em) {
       .gallery__blueberry {
         width: 10rem; } }
     @media only screen and (max-width: 56.25em) {
@@ -427,7 +427,7 @@ li {
     border: 1px solid var(--color-secondary);
     background-color: #fff;
     padding: 6px 16px; }
-    @media only screen and (min-width: 87.5em) {
+    @media only screen and (min-width: 75em) {
       .gallery__nav {
         font-size: 1.6rem; } }
     @media only screen and (max-width: 56.25em) {
@@ -458,7 +458,7 @@ li {
     width: 30rem;
     text-align: center;
     border-radius: 3px; }
-    @media only screen and (min-width: 87.5em) {
+    @media only screen and (min-width: 75em) {
       .gallery__cart {
         width: 50rem; } }
     @media only screen and (max-width: 56.25em) {
@@ -469,7 +469,7 @@ li {
         width: auto; } }
   .gallery__pic {
     width: 30rem; }
-    @media only screen and (min-width: 87.5em) {
+    @media only screen and (min-width: 75em) {
       .gallery__pic {
         width: 42rem; } }
     @media only screen and (max-width: 56.25em) {
@@ -621,7 +621,7 @@ li {
     position: absolute;
     top: 60rem;
     right: 1.5rem; }
-    @media only screen and (min-width: 87.5em) {
+    @media only screen and (min-width: 75em) {
       .portfolio__strawberry {
         width: 16rem;
         top: 77rem; } }
@@ -642,7 +642,7 @@ li {
     display: grid;
     grid-template-columns: 5rem repeat(5, 1fr) 5rem;
     grid-template-rows: repeat(2, 180px) 10rem; }
-    @media only screen and (min-width: 87.5em) {
+    @media only screen and (min-width: 75em) {
       .portfolio__projects {
         grid-template-rows: repeat(2, 250px) 10rem; } }
     @media only screen and (max-width: 56.25em) {
@@ -862,7 +862,7 @@ li {
   .reviews__heading {
     text-align: center;
     margin-bottom: 5rem; }
-    @media only screen and (min-width: 87.5em) {
+    @media only screen and (min-width: 75em) {
       .reviews__heading {
         margin-top: 8rem; } }
     @media only screen and (max-width: 37.5em) {
@@ -891,7 +891,7 @@ li {
       border: 3px solid var(--color-background);
       border-radius: 5px;
       padding: 2.5rem; }
-      @media only screen and (min-width: 87.5em) {
+      @media only screen and (min-width: 75em) {
         .reviews__clients--client {
           width: 37rem; } }
       @media only screen and (max-width: 56.25em) {
@@ -911,7 +911,7 @@ li {
       .reviews__clients--client-pic {
         width: 12rem;
         margin: 1.5rem 0; }
-        @media only screen and (min-width: 87.5em) {
+        @media only screen and (min-width: 75em) {
           .reviews__clients--client-pic {
             width: 19rem; } }
         @media only screen and (max-width: 37.5em) {
@@ -933,7 +933,7 @@ li {
     width: 20rem;
     top: 46rem;
     left: 5rem; }
-    @media only screen and (min-width: 87.5em) {
+    @media only screen and (min-width: 75em) {
       .reviews__strawberry {
         top: 58rem; } }
     @media only screen and (max-width: 75em) {
@@ -1029,12 +1029,12 @@ li {
     height: 45rem;
     margin: 88px 30px 0px 30px;
     padding: 5rem 0 5rem 5rem; }
-    @media only screen and (min-width: 87.5em) {
-      .contacts__adress {
-        width: 140rem; } }
     @media only screen and (min-width: 75em) {
       .contacts__adress {
-        width: 130rem; } }
+        width: 140rem; } }
+    @media only screen and (max-width: 75em) {
+      .contacts__adress {
+        width: 140rem; } }
     .contacts__adress--block {
       display: flex;
       align-items: center;
@@ -1047,6 +1047,10 @@ li {
         width: 4rem;
         height: 4rem;
         fill: var(--color-secondary); }
+        @media only screen and (min-width: 75em) {
+          .contacts__adress--block-icon {
+            width: 5rem;
+            height: 5rem; } }
         @media only screen and (max-width: 56.25em) {
           .contacts__adress--block-icon {
             width: 3rem;
@@ -1114,6 +1118,9 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: flex-end; }
+    @media only screen and (min-width: 75em) {
+      .footer__text--3 {
+        align-items: center; } }
     @media only screen and (max-width: 37.5em) {
       .footer__text--3 {
         grid-column: 2 / 3;
