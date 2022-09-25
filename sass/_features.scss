@@ -1,6 +1,5 @@
 .features {
     position: relative;
-
     margin-top: 10rem;
 
     &__raspberry {
@@ -8,6 +7,13 @@
         width: 14rem;
         right: 20rem;
         top: -3rem;
+
+        @media only screen and (max-width: $bp-medium) {
+            width: 10rem;
+            right: 10rem;
+            top: -8rem;
+        }
+
     }
 
     &__about {
@@ -16,6 +22,14 @@
 
         display: flex;
         align-items: center;
+
+        @media only screen and (max-width: $bp-medium) {
+            flex-direction: column;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            flex-direction: column;
+        }
         
 
         &--pic {
@@ -24,14 +38,31 @@
             border-radius: 50%;
             margin: 0 5rem;
 
+           
+
         }
 
         &--heading {
             margin-bottom: 4rem;
+
         }
 
         &--me {
             padding-right: 5rem;
+
+            @media only screen and (max-width: $bp-medium) {
+                display: flex;
+                text-align: center;
+                flex-direction: column;
+                padding: 2rem;
+            }
+
+            @media only screen and (max-width: $bp-small) {
+                display: flex;
+                text-align: center;
+                flex-direction: column;
+                padding: 2rem;
+            }
         } 
     }
 
@@ -41,24 +72,71 @@
         align-items: center;
         margin: 0 5rem;
 
+        @media only screen and (max-width: $bp-medium) {
+            flex-direction: column;
+            margin-top: 28rem;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            flex-direction: column;
+            margin-top: 46rem;
+        }
+
         &--cart {
             width: 20rem;
             height: 26rem;
-            padding: 5rem 3rem 5rem 3rem;
+            padding: 5rem 3rem;
 
             display: flex;
             flex-direction: column;
             align-items: center;
 
+            @media only screen and (max-width: $bp-medium) {
+                flex-direction: column;
+                width: 40rem;
+                height: 20rem;
+                padding: 0;
+            }
+
+            @media only screen and (max-width: $bp-small) {
+                flex-direction: column;
+                width: 40rem;
+                height: 20rem;
+                padding: 0;
+            }
+
             &:hover {
                 border: 3px solid rgba(252, 192, 192, 0.4);
                 border-radius: 10px;
+
+                @media only screen and (max-width: $bp-medium) {
+                    border: none;
+                    border-radius: none;
+                }
+
+                @media only screen and (max-width: $bp-small) {
+                    border: none;
+                    border-radius: none;
+                }
             }
+
+            
         
             &-icon {
-                width: 4rem;
-                height: 4rem;
-                fill: var(--color-secondary);
+            width: 4rem;
+            height: 4rem;
+            fill: var(--color-secondary);
+
+            @media only screen and (max-width: $bp-medium) {
+                width: 4.5rem;
+                height: 4.5rem;
+            }
+
+            @media only screen and (max-width: $bp-small) {
+                width: 5rem;
+                height: 5rem;
+            }
+          
             }
 
             &-text {
@@ -75,6 +153,8 @@
         position: absolute;
         top: 60rem;
         left: -5rem;
+
+        
     }
 
 }

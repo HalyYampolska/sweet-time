@@ -3,17 +3,49 @@
 
     position: relative;
 
+    @media only screen and (max-width: $bp-medium) {
+        display: flex;
+        flex-direction: column;;
+        justify-content: center;
+        
+
+    }
+
     &__heading {
         text-align: center;
-        margin-bottom: 7rem;
+        margin-bottom: 5rem;
+
+        @media only screen and (min-width: $bp-largest) {
+            margin-top: 8rem;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            margin: 1rem;
+        }
     }
+
+    &__heading--2 {
+        text-align: center;
+        margin-bottom: 5rem;
+        margin-top: 8rem;
+        }
 
     &__clients {
 
         display: flex;
         justify-content: space-around;
 
-        margin: 0 10rem;
+        @media only screen and (max-width: $bp-medium) {
+            flex-direction: column;
+            margin-top: auto;
+            margin-right: 0;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            flex-direction: column;
+            margin-top: auto;
+            margin-right: 0;
+        }
 
         &--client {
             width: 28rem;
@@ -23,13 +55,45 @@
 
             padding: 2.5rem;
 
+            @media only screen and (min-width: $bp-largest) {
+                width: 37rem;
+                
+            }
+
+            @media only screen and (max-width: $bp-medium) {
+                width: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 2.5rem 5rem;
+            }
+
+            @media only screen and (max-width: $bp-small) {
+                width: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 2.5rem 5rem;
+            }
+
             &-pic {
                 width: 12rem;
                 margin: 1.5rem 0;
+
+                @media only screen and (min-width: $bp-largest) {
+                    width: 19rem;
+                }
+
+                @media only screen and (max-width: $bp-small) {
+                    width: 16rem;
+                }
+
                 }
     
             &-name {
                  margin: 0.5rem 0 2rem 0;
+
+              
             }
 
         }   
@@ -40,29 +104,40 @@
         height: 15rem;
         display: block;
 
-        &--heading {
-            margin-top: 15rem;
-            text-align: center;
-        }
-
         &--description {
-            text-align: center;
+            
             margin-top: 2rem;
+            text-align: center;
+
         }
     }
 
     &__btn {
-        width: auto;
-        margin: 0 auto 10rem auto;
-
         display: flex;
+        margin: 10rem auto;
+
     }
 
     &__strawberry {
         position: absolute;
         width: 20rem;
-        top: 55rem;
+        top: 46rem;
         left: 5rem;
+
+        @media only screen and (min-width: $bp-largest) {
+            top: 58rem;
+        }
+
+        @media only screen and (max-width: $bp-large) {
+            width: 17rem;
+            top: 49rem;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            max-width: 11rem;
+            top: 133rem;
+            left: 16rem;
+        }
 
     }
 

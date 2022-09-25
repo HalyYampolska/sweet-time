@@ -16,6 +16,7 @@
         <dev class="container">
             <header class="header">
                 <img src="img/logo.png" alt="Logo" class="header__logo">
+
                     <nav class="header__sidebar">
                         <ul class="header__sidebar--top text-menu">
                             <li><a href="#desserts" class="text-menu-underline">Our desserts</a></li>
@@ -26,13 +27,15 @@
                         </ul>
                     </nav>
                     <button class="btn btn-white header__btn">Order here</button> 
+                    <button class="header__btn-adapt"></button>
+                    
             </header>
             
             <div class="hero">
-                <h1 class="hero__title heading">Handcrafted cakes and desserts <br>made to order</h1>
-                <p class="hero__description paragraph">Lorem ipsum dolor sit amet consectetur</p>
+                <h1 class="hero__title heading">Handcrafted cakes and <br>desserts made to order</h1>
+                <p class="hero__description paragraph">Lorem ipsum dolor sit amet</p>
                 <button class="btn btn-red hero__btn">Order here</button>
-                <img src="img/cake-main-1.png" alt="Cake" class="hero__img">
+                <img src="img/cake-main-1.png" alt="cake" class="hero__img">
             
                 <img src="img/strawberry-1.png" alt="Strawberry" class="hero__strawberry-1">
             </div>
@@ -57,7 +60,7 @@
                         <h3 class="gallery__title-2 heading-3">Chocolate with caramel</h3>
                         <p class="gallery__description paragraph">Lorem ipsum, dolor sit amet consectetur<br>adipisicing elit</p>
                         <p class="gallery_description paragraph">Min 6 ps</p>
-                        <p class="gallery__price paragraph">$8</p>
+                        <p class="gallery__price heading-3">$8</p>
                     </div>
 
                     <div class="gallery__cart">
@@ -65,7 +68,7 @@
                         <h3 class="gallery__title-2 heading-3">Berry and cream</h3>
                         <p class="gallery__description paragraph">Lorem ipsum dolor sit amet consectetur<br>adipisicing</p>
                         <p class="gallery_description paragraph">Min 6 ps</p>
-                        <p class="gallery__price paragraph">$10</p>
+                        <p class="gallery__price heading-3">$10</p>
                     </div>
 
                     <div class="gallery__cart">
@@ -73,7 +76,7 @@
                         <h3 class="gallery__title-2 heading-3">Red velvet</h3>
                         <p class="gallery__description paragraph">Lorem ipsum dolor sit amet consectetur<br>adipisicing elit</p>
                         <p class="gallery_description paragraph">Min 6 ps</p>
-                        <p class="gallery__price paragraph">$9</p>
+                        <p class="gallery__price heading-3">$9</p>
                     </div>
                 </div>
 
@@ -87,11 +90,16 @@
                 <img src="img/raspberry-1.png" alt="Raspberry" class="features__raspberry">
                 
                 <div class="features__about" id="about">
+
+                    
                     
                     <img src="img/baker.jpg" alt="Baker" class="features__about--pic">
+
                     
                     <div class="features__about--me">
-                        <h2 class="features__about--heading heading-2">About me</h2>
+
+                        <h2 class="features__about--heading heading-2">About us</h2>
+                        
                         <p class="paragraph">Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Montes nascetur ridiculus mus mauris vitae ultricies.</p> 
 
                         <br><p class="paragraph">Bibendum enim facilisis gravida neque convallis a cras semper. At tempor commodo ullamcorper a lacus vestibulum. Lectus magna fringilla urna porttitor rhoncus dolor.</p>
@@ -101,30 +109,30 @@
                 <div class="features__blocks">
                         
                     <div class="features__blocks--cart"> 
-                        <svg class="features__blocks--cart-icon">
-                            <svg class="icon-leaf"><use xlink:href="img/sprite.svg#icon-leaf"></use></svg>
-                        </svg>
+                            <svg class="icon-leaf features__blocks--cart-icon">
+                                <use xlink:href="img/sprite.svg#icon-leaf"></use>
+                            </svg>
                         <p class="features__blocks--cart-text paragraph">Only natural ingredients</p>
                     </div>
 
                     <div class="features__blocks--cart">
-                        <svg class="features__blocks--cart-icon">
-                            <svg class="icon-users"><use xlink:href="img/sprite.svg#icon-users"></use></svg>
-                        </svg>
+                            <svg class="icon-users features__blocks--cart-icon">
+                                <use xlink:href="img/sprite.svg#icon-users"></use>
+                            </svg>
                         <p class="features__blocks--cart-text paragraph">Individual approach to each client</p>
                     </div>
 
                     <div class="features__blocks--cart">
-                        <svg class="features__blocks--cart-icon">
-                            <svg class="icon-heart"><use xlink:href="img/sprite.svg#icon-heart"></use></svg>
-                        </svg>   
+                            <svg class="icon-heart features__blocks--cart-icon">
+                                <use xlink:href="img/sprite.svg#icon-heart"></use>
+                            </svg>   
                         <p class="features__blocks--cart-text paragraph">No trans fat. Great for kids!</p>
                     </div>
 
                     <div class="features__blocks--cart">
-                        <svg class="features__blocks--cart-icon">
-                            <svg class="icon-ticket"><use xlink:href="img/sprite.svg#icon-ticket"></use></svg>
-                        </svg>        
+                            <svg class="icon-ticket features__blocks--cart-icon">
+                                <use xlink:href="img/sprite.svg#icon-ticket"></use>
+                            </svg>     
                         <p class="features__blocks--cart-text paragraph">Affordable prices</p>
                     </div>
                 </div>
@@ -141,7 +149,7 @@
                     <figure class="portfolio__projects--project-1 image-container">
                         <img src="img/gallery-1.jpg" alt="Pie with orange" class="portfolio__projects--img">
                         <div class="image-caption">
-                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed faucibus turpis in eu mi ut placerat orci nulla pellentesque dignissim.</p>
+                        <p class="paragraph portfolio__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed faucibus turpis in eu mi ut placerat orci nulla pellentesque dignissim.</p>
                         </div>
                     </figure>
 
@@ -215,7 +223,7 @@
                         <svg class="icon-location shipping__icons">
                             <use xlink:href="img/sprite.svg#icon-location"></use>
                         </svg>
-                        <p class="shipping__delivery-text paragraph">Self pick-up at the bakery – Free</p>
+                        <p class="shipping__delivery-text paragraph">Self pick-up at the bakery <br>– Free</p>
                     </div>
 
                 </div>
@@ -264,6 +272,7 @@
                 <img src="img/strawberry-1.png" alt="strawberry" class="reviews__strawberry">
 
                 <cta class="reviews__cta">
+                    <h2 class="reviews__heading--2 heading-2">Need help?</h2>
                     <p class="reviews__cta--description paragraph">
                         Faucibus purus in massa tempor. Sit amet porttitor eget dolor morbi non arcu risus. <br>Morbi tincidunt ornare massa eget egestas. 
                     </p>
