@@ -34,12 +34,22 @@
             top: 6rem;
             right: 6rem;
         }
+
+        @media only screen and (max-width: $bp-small-2) {
+            width: 0;
+        }
     }
 
     &__group-nav {
         display: flex;
         justify-content: center;
         margin-bottom: 6rem;
+
+        @media only screen and (max-width: $bp-small-2) {
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+        }
     }
 
     &__nav {
@@ -55,6 +65,15 @@
 
         @media only screen and (max-width: $bp-medium) {
             font-size: 1.6rem;
+        }
+
+        @media only screen and (max-width: $bp-small-2) {
+            padding: 5px;
+            margin: 5px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 20rem;
         }
 
         &:hover {
@@ -79,8 +98,6 @@
         display: flex;
         justify-content: space-around;
         margin: 0 2rem;
-
-        
 
         @media only screen and (max-width: $bp-medium) {
             flex-direction: column;
@@ -123,21 +140,25 @@
         @media only screen and (max-width: $bp-small) {
             width: 38rem;
         }
+
+        @media only screen and (max-width: $bp-small-2) {
+            width: -webkit-fill-available;
+        }
     }
 
     &__title-2 {
         padding-top: 6rem;
         text-transform: uppercase;
-
-        @media only screen and (max-width: $bp-large) {
-            font-weight: 300;
-            font-size: 1.8rem;
-        }
     }
 
     &__description {
         padding-top: 1.25rem;
         padding-bottom: 2rem;
+        
+
+        @media only screen and (max-width: $bp-small-2) {
+            width: fit-content;
+        }
     }
 
     &__price {

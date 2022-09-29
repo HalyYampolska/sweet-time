@@ -67,6 +67,11 @@
             grid-rows: 1 / 2;
             line-height: normal;
         }
+
+        @media only screen and (max-width: $bp-small-2) {
+            display: flex;
+            width: fit-content;
+        }
     }
 
     &__description {
@@ -82,6 +87,11 @@
         @media only screen and (max-width: $bp-medium) {
             grid-columns: 2 / 3;  
             grid-rows: 2 / 3;
+        }
+
+        @media only screen and (max-width: $bp-small-2) {
+            display: flex;
+            width: fit-content;
         }
 
     }
@@ -114,10 +124,6 @@
             left: 38rem;
         }
 
-        @media only screen and (max-width: $bp-large) {
-            left: 20rem;
-        }
-
         @media only screen and (max-width: $bp-medium) {
             width: 14rem;
 
@@ -130,6 +136,12 @@
             width: 18rem;
             top: 30rem;
             left: 31rem;
+        }
+
+        @media only screen and (max-width: $bp-small-2) {
+            width: 10rem;
+            top: 35rem;
+            left: 16rem;
         }
     }
     

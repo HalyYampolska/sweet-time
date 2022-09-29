@@ -14,6 +14,10 @@
             top: -8rem;
         }
 
+        @media only screen and (max-width: $bp-small-2) {
+            width: 0;
+        }
+
     }
 
     &__about {
@@ -37,8 +41,6 @@
             height: 24rem;
             border-radius: 50%;
             margin: 0 5rem;
-
-           
 
         }
 
@@ -154,6 +156,9 @@
         top: 60rem;
         left: -5rem;
 
+        @media only screen and (max-width: $bp-small-2) {
+            width: 0;
+        }
         
     }
 

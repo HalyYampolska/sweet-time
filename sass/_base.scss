@@ -4,14 +4,15 @@
     --color-background: #ffffff;
     --color-text:#000;
    
-
-  --shadow-dark: 0 2px 2px rgba(0,0,0,0.3);
+    --shadow-dark: 0 2px 2px rgba(0,0,0,0.3);
 }
 
-$bp-largest: 75em; //1200+px
-$bp-large: 75em; //1200px
-$bp-medium: 56.25em; //900px
-$bp-small: 37.5em; //600px
+$bp-largest: 86.25em; //1200+px
+$bp-large: 86.25em; //1200px
+$bp-medium: 62.5em; //1000px
+$bp-small: 40.63em; //650px
+$bp-small-2: 31.25em; //500px
+$bp-tiny: 18.75em; // 300px
 
 
 * {

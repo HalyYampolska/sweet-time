@@ -1,6 +1,6 @@
 .footer {
     display: grid;
-    grid-template-columns: 7.5rem repeat(4, 1fr) 7.5rem;
+    grid-template-columns: 5rem repeat(4, 1fr) 7rem;
 
     background-color: var(--color-primary);
 
@@ -11,6 +11,10 @@
     @media only screen and (max-width: $bp-small) {
         grid-template-columns: 7.5rem 1fr 7.5rem;
         grid-template-rows: repeat(6, 5.3rem);
+    }
+
+    @media only screen and (max-width: $bp-small-2) {
+        padding-bottom: 2.5rem; 
     }
 
     &__logo {
@@ -32,6 +36,7 @@
 
             margin: auto;
         }
+
     }
 
     &__text--1 {
@@ -100,6 +105,10 @@
         height: 2.5rem;
         fill: var(--color-secondary);
 
+        @media only screen and (max-width: $bp-large) {
+            margin-right: 0.5rem;
+        }
+
         @media only screen and (max-width: $bp-medium) {
             width: 2.5rem;
             height: 2.5rem;
@@ -115,9 +124,12 @@
             margin-top: 1.2rem;
         }
 
-        &--block {
-            margin-right: 1rem;
+        @media only screen and (max-width: $bp-small-2) {
+            width: 1.5rem;
+            height: 1.5rem; 
         }
+
+
         
     }
 
@@ -129,6 +141,10 @@
 
         margin-bottom: 1rem;
         margin-top: 1.5rem;
+
+        @media only screen and (max-width: $bp-small-2) {
+            margin-top: 6rem;
+        }
     }
 
 }

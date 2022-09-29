@@ -5,7 +5,7 @@
 
     @media only screen and (max-width: $bp-medium) {
         display: flex;
-        flex-direction: column;;
+        flex-direction: column;
         justify-content: center;
         
 
@@ -28,6 +28,15 @@
         text-align: center;
         margin-bottom: 5rem;
         margin-top: 8rem;
+        
+        @media only screen and (min-width: $bp-largest) {
+            margin-top: 14rem;
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+            margin-top: 0;
+        }
+
         }
 
     &__clients {
@@ -114,7 +123,17 @@
 
     &__btn {
         display: flex;
-        margin: 10rem auto;
+        margin: 20rem auto 10rem auto;
+
+        @media only screen and (min-width: $bp-largest) {
+            margin: 11rem auto 10rem auto;
+        }
+
+        @media only screen and (max-width: $bp-large) {
+            margin: 11rem auto 10rem auto;
+        }
+
+       
 
     }
 
@@ -130,13 +149,21 @@
 
         @media only screen and (max-width: $bp-large) {
             width: 17rem;
-            top: 49rem;
+            top: 58rem;
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+            top: 130rem;
         }
 
         @media only screen and (max-width: $bp-small) {
             max-width: 11rem;
             top: 133rem;
-            left: 16rem;
+            left: 8rem;
+        }
+
+        @media only screen and (max-width: $bp-small-2) {
+            width: 0;
         }
 
     }

@@ -11,6 +11,11 @@
         font-size: 1.2rem;
     }
 
+    @media only screen and (max-width: $bp-small-2) {
+        width: fit-content; 
+        padding: 0 5px;
+    }
+
     &__link {
         text-decoration-line: underline;
         color: var( --color-secondary);
